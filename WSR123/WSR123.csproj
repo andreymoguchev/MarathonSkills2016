@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{36C94709-ED5B-461C-969E-59A00A2D8DCB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WSR123</RootNamespace>
+    <AssemblyName>WSR123</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BMI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BMI.Designer.cs">
+      <DependentUpon>BMI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckRunner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckRunner.Designer.cs">
+      <DependentUpon>CheckRunner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CompleteRunner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompleteRunner.Designer.cs">
+      <DependentUpon>CompleteRunner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contacts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contacts.Designer.cs">
+      <DependentUpon>Contacts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Coordinator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Coordinator.Designer.cs">
+      <DependentUpon>Coordinator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CtrlR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CtrlR.Designer.cs">
+      <DependentUpon>CtrlR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditR.Designer.cs">
+      <DependentUpon>EditR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Email.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Email.Designer.cs">
+      <DependentUpon>Email.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fond.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fond.Designer.cs">
+      <DependentUpon>Fond.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HowLong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HowLong.Designer.cs">
+      <DependentUpon>HowLong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info.Designer.cs">
+      <DependentUpon>Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Map.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Map.Designer.cs">
+      <DependentUpon>Map.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BMR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BMR.Designer.cs">
+      <DependentUpon>BMR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySponsor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySponsor.Designer.cs">
+      <DependentUpon>MySponsor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrM.Designer.cs">
+      <DependentUpon>RegistrM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrR.Designer.cs">
+      <DependentUpon>RegistrR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report.Designer.cs">
+      <DependentUpon>Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Results.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Results.Designer.cs">
+      <DependentUpon>Results.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Runner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include=".Designer.cs">
+      <DependentUpon>Runner.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="More.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="More.Designer.cs">
+      <DependentUpon>More.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sponsor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sponsor.designer.cs">
+      <DependentUpon>Sponsor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WSR123DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WSR123DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="WSR123DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WSR123DataSet1.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BMI.resx">
+      <DependentUpon>BMI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckRunner.resx">
+      <DependentUpon>CheckRunner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompleteRunner.resx">
+      <DependentUpon>CompleteRunner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contacts.resx">
+      <DependentUpon>Contacts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Coordinator.resx">
+      <DependentUpon>Coordinator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CtrlR.resx">
+      <DependentUpon>CtrlR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditR.resx">
+      <DependentUpon>EditR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Email.resx">
+      <DependentUpon>Email.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fond.resx">
+      <DependentUpon>Fond.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HowLong.resx">
+      <DependentUpon>HowLong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info.resx">
+      <DependentUpon>Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Map.resx">
+      <DependentUpon>Map.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BMR.resx">
+      <DependentUpon>BMR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySponsor.resx">
+      <DependentUpon>MySponsor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrM.resx">
+      <DependentUpon>RegistrM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrR.resx">
+      <DependentUpon>RegistrR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report.resx">
+      <DependentUpon>Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Results.resx">
+      <DependentUpon>Results.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Runner.resx">
+      <DependentUpon>Runner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="More.resx">
+      <DependentUpon>More.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Sponsor.resx">
+      <DependentUpon>Sponsor.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="WSR123DataSet.xsc">
+      <DependentUpon>WSR123DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="WSR123DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WSR123DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WSR123DataSet.xss">
+      <DependentUpon>WSR123DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="WSR123DataSet1.xsc">
+      <DependentUpon>WSR123DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="WSR123DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>WSR123DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WSR123DataSet1.xss">
+      <DependentUpon>WSR123DataSet1.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_46718565-stock-photo-info-icon.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banco-banespa.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ibirapuera-park-lake.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marathon-image.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teatro-municipal.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marathon-skills-2016-marathon-map.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\arise-logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\aves-do-brazil-logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\bmi-healthy-icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\bmi-obese-icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\bmi-overweight-icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\bmi-underweight-icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\clara-santos-oliveira-institute-logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\conquer-cancer-brazil.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\diabetes-brazil-logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\female-icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\heart-health-sao-paulo-logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\human-rights-centre-logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\male-icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\map-icon-drinks.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\map-icon-energy-bars.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\map-icon-information.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\map-icon-medical.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\map-icon-start.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\map-icon-toilets.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\marathon-skills-2014-certificate-seal.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\marathon-skills-2014-logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\oxfam-international-logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\querstadtein-logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\save-the-children-fund-logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\stay-pumped-logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\the-red-cross-logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\upbeat-logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\wwsm-rescue-logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
