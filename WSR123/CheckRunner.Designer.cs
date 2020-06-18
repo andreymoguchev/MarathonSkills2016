@@ -122,6 +122,7 @@
             this.ForeColor = System.Drawing.Color.Black;
             this.Name = "CheckRunner";
             this.Text = "Marathon Skills 2020 - Register as a runner";
+            this.Load += new System.EventHandler(this.CheckRunner_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
