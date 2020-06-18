@@ -39,6 +39,11 @@
             this.ltoilets = new System.Windows.Forms.Label();
             this.lenergy = new System.Windows.Forms.Label();
             this.ldrinks = new System.Windows.Forms.Label();
+            this.medical = new System.Windows.Forms.PictureBox();
+            this.information = new System.Windows.Forms.PictureBox();
+            this.toilets = new System.Windows.Forms.PictureBox();
+            this.drinks = new System.Windows.Forms.PictureBox();
+            this.energy = new System.Windows.Forms.PictureBox();
             this.services = new System.Windows.Forms.Label();
             this.landmarkN = new System.Windows.Forms.Label();
             this.landmark = new System.Windows.Forms.Label();
@@ -54,22 +59,17 @@
             this.fullrace = new System.Windows.Forms.PictureBox();
             this.funrace = new System.Windows.Forms.PictureBox();
             this.halfrace = new System.Windows.Forms.PictureBox();
-            this.medical = new System.Windows.Forms.PictureBox();
-            this.information = new System.Windows.Forms.PictureBox();
-            this.toilets = new System.Windows.Forms.PictureBox();
-            this.drinks = new System.Windows.Forms.PictureBox();
-            this.energy = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.fullrace)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.funrace)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.halfrace)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.medical)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.information)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.toilets)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.drinks)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.energy)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fullrace)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.funrace)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.halfrace)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -172,6 +172,56 @@
             this.ldrinks.Size = new System.Drawing.Size(56, 19);
             this.ldrinks.TabIndex = 11;
             this.ldrinks.Text = "Drinks";
+            // 
+            // medical
+            // 
+            this.medical.Image = ((System.Drawing.Image)(resources.GetObject("medical.Image")));
+            this.medical.Location = new System.Drawing.Point(3, 368);
+            this.medical.Name = "medical";
+            this.medical.Size = new System.Drawing.Size(45, 39);
+            this.medical.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.medical.TabIndex = 10;
+            this.medical.TabStop = false;
+            // 
+            // information
+            // 
+            this.information.Image = ((System.Drawing.Image)(resources.GetObject("information.Image")));
+            this.information.Location = new System.Drawing.Point(3, 323);
+            this.information.Name = "information";
+            this.information.Size = new System.Drawing.Size(45, 39);
+            this.information.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.information.TabIndex = 9;
+            this.information.TabStop = false;
+            // 
+            // toilets
+            // 
+            this.toilets.Image = ((System.Drawing.Image)(resources.GetObject("toilets.Image")));
+            this.toilets.Location = new System.Drawing.Point(3, 278);
+            this.toilets.Name = "toilets";
+            this.toilets.Size = new System.Drawing.Size(45, 39);
+            this.toilets.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.toilets.TabIndex = 8;
+            this.toilets.TabStop = false;
+            // 
+            // drinks
+            // 
+            this.drinks.Image = ((System.Drawing.Image)(resources.GetObject("drinks.Image")));
+            this.drinks.Location = new System.Drawing.Point(3, 188);
+            this.drinks.Name = "drinks";
+            this.drinks.Size = new System.Drawing.Size(45, 39);
+            this.drinks.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.drinks.TabIndex = 6;
+            this.drinks.TabStop = false;
+            // 
+            // energy
+            // 
+            this.energy.Image = ((System.Drawing.Image)(resources.GetObject("energy.Image")));
+            this.energy.Location = new System.Drawing.Point(3, 233);
+            this.energy.Name = "energy";
+            this.energy.Size = new System.Drawing.Size(45, 39);
+            this.energy.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.energy.TabIndex = 7;
+            this.energy.TabStop = false;
             // 
             // services
             // 
@@ -321,56 +371,6 @@
             this.halfrace.TabStop = false;
             this.halfrace.Click += new System.EventHandler(this.halfrace_Click);
             // 
-            // medical
-            // 
-            this.medical.Image = ((System.Drawing.Image)(resources.GetObject("medical.Image")));
-            this.medical.Location = new System.Drawing.Point(3, 368);
-            this.medical.Name = "medical";
-            this.medical.Size = new System.Drawing.Size(45, 39);
-            this.medical.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.medical.TabIndex = 10;
-            this.medical.TabStop = false;
-            // 
-            // information
-            // 
-            this.information.Image = ((System.Drawing.Image)(resources.GetObject("information.Image")));
-            this.information.Location = new System.Drawing.Point(3, 323);
-            this.information.Name = "information";
-            this.information.Size = new System.Drawing.Size(45, 39);
-            this.information.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.information.TabIndex = 9;
-            this.information.TabStop = false;
-            // 
-            // toilets
-            // 
-            this.toilets.Image = ((System.Drawing.Image)(resources.GetObject("toilets.Image")));
-            this.toilets.Location = new System.Drawing.Point(3, 278);
-            this.toilets.Name = "toilets";
-            this.toilets.Size = new System.Drawing.Size(45, 39);
-            this.toilets.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.toilets.TabIndex = 8;
-            this.toilets.TabStop = false;
-            // 
-            // drinks
-            // 
-            this.drinks.Image = ((System.Drawing.Image)(resources.GetObject("drinks.Image")));
-            this.drinks.Location = new System.Drawing.Point(3, 188);
-            this.drinks.Name = "drinks";
-            this.drinks.Size = new System.Drawing.Size(45, 39);
-            this.drinks.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.drinks.TabIndex = 6;
-            this.drinks.TabStop = false;
-            // 
-            // energy
-            // 
-            this.energy.Image = ((System.Drawing.Image)(resources.GetObject("energy.Image")));
-            this.energy.Location = new System.Drawing.Point(3, 233);
-            this.energy.Name = "energy";
-            this.energy.Size = new System.Drawing.Size(45, 39);
-            this.energy.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.energy.TabIndex = 7;
-            this.energy.TabStop = false;
-            // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.White;
@@ -417,16 +417,17 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Map";
             this.Text = "Marathon Skills 2020 - Interactive map";
+            this.Load += new System.EventHandler(this.Map_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.fullrace)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.funrace)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.halfrace)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.medical)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.information)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.toilets)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.drinks)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.energy)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fullrace)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.funrace)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.halfrace)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
