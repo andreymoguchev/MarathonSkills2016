@@ -231,6 +231,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(922, 526);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // time
             // 
@@ -349,6 +350,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "BMI";
             this.Text = "Marathon Skills 2020 - MBI calculator";
+            this.Load += new System.EventHandler(this.BMI_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

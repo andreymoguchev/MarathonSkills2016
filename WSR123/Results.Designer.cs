@@ -75,6 +75,7 @@
             this.button3.TabIndex = 2;
             this.button3.Text = "Показать все результаты";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label1
             // 
@@ -115,6 +116,7 @@
             this.label4.Size = new System.Drawing.Size(40, 22);
             this.label4.TabIndex = 6;
             this.label4.Text = "Пол:";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -125,6 +127,7 @@
             this.label5.Size = new System.Drawing.Size(65, 22);
             this.label5.TabIndex = 7;
             this.label5.Text = "мужской";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -135,6 +138,7 @@
             this.label6.Size = new System.Drawing.Size(157, 22);
             this.label6.TabIndex = 8;
             this.label6.Text = "Возрастная категория:";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label7
             // 

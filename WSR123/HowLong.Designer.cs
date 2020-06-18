@@ -66,6 +66,7 @@
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.tabControl1.SuspendLayout();
@@ -160,6 +161,7 @@
             this.label4.Size = new System.Drawing.Size(230, 19);
             this.label4.TabIndex = 10;
             this.label4.Text = "Насколько долгий марафон?";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // time
             // 
@@ -181,7 +183,8 @@
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(504, 90);
+            this.tabControl1.Controls.Add(this.tabPage3);
+            this.tabControl1.Location = new System.Drawing.Point(506, 90);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(218, 345);
@@ -207,7 +210,7 @@
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Size = new System.Drawing.Size(210, 313);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Сходность";
+            this.tabPage1.Text = "Скорость";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // label11
@@ -505,6 +508,16 @@
             this.pictureBox10.TabStop = false;
             this.pictureBox10.Click += new System.EventHandler(this.pictureBox10_Click);
             // 
+            // tabPage3
+            // 
+            this.tabPage3.Location = new System.Drawing.Point(4, 28);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(210, 313);
+            this.tabPage3.TabIndex = 1;
+            this.tabPage3.Text = "tabPage3";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
             // HowLong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
@@ -587,5 +600,6 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TabPage tabPage3;
     }
 }
