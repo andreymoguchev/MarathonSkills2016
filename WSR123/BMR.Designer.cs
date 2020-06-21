@@ -82,9 +82,9 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(322, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(199, 19);
+            this.label1.Size = new System.Drawing.Size(158, 19);
             this.label1.TabIndex = 2;
-            this.label1.Text = "MARATHON SKILLS 2020";
+            this.label1.Text = "MARATHON SKILLS";
             // 
             // label2
             // 

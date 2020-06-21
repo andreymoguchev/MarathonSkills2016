@@ -91,9 +91,9 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(183, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(443, 23);
+            this.label1.Size = new System.Drawing.Size(393, 23);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Интерактивная карта MARATHON SKILLS 2020";
+            this.label1.Text = "Интерактивная карта MARATHON SKILLS";
             // 
             // time
             // 

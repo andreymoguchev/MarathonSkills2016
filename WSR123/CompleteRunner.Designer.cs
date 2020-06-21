@@ -81,9 +81,9 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(352, 33);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(177, 22);
+            this.label1.Size = new System.Drawing.Size(141, 22);
             this.label1.TabIndex = 3;
-            this.label1.Text = "MARATHON SKILLS 2020";
+            this.label1.Text = "MARATHON SKILLS";
             // 
             // label2
             // 
@@ -105,9 +105,9 @@
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(142, 153);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(569, 19);
+            this.label3.Size = new System.Drawing.Size(528, 19);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Спасибо за Вашу регистрацию в качестве бегуна в Marathon Skills 2020!";
+            this.label3.Text = "Спасибо за Вашу регистрацию в качестве бегуна в Marathon Skills!";
             // 
             // label4
             // 

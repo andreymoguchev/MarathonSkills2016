@@ -111,9 +111,9 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(323, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(199, 19);
+            this.label1.Size = new System.Drawing.Size(158, 19);
             this.label1.TabIndex = 4;
-            this.label1.Text = "MARATHON SKILLS 2020";
+            this.label1.Text = "MARATHON SKILLS";
             // 
             // label2
             // 
@@ -226,7 +226,7 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(197, 27);
             this.dateTimePicker1.TabIndex = 17;
-            this.dateTimePicker1.Value = new System.DateTime(2017, 5, 29, 16, 42, 0, 0);
+            this.dateTimePicker1.Value = new System.DateTime(2000, 5, 30, 16, 42, 0, 0);
             this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // textBox3
@@ -354,9 +354,9 @@
             this.label13.BackColor = System.Drawing.Color.White;
             this.label13.Location = new System.Drawing.Point(145, 120);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(60, 19);
+            this.label13.Size = new System.Drawing.Size(53, 19);
             this.label13.TabIndex = 30;
-            this.label13.Text = "label13";
+            this.label13.Text = "e-mail";
             // 
             // EditR
             // 

@@ -150,9 +150,9 @@
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(325, 28);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(199, 19);
+            this.label5.Size = new System.Drawing.Size(158, 19);
             this.label5.TabIndex = 11;
-            this.label5.Text = "MARATHON SKILLS 2020";
+            this.label5.Text = "MARATHON SKILLS";
             // 
             // label6
             // 

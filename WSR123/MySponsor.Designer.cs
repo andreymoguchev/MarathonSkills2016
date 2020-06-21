@@ -78,9 +78,9 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(388, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(289, 27);
+            this.label1.Size = new System.Drawing.Size(230, 27);
             this.label1.TabIndex = 3;
-            this.label1.Text = "MARATHON SKILLS 2020";
+            this.label1.Text = "MARATHON SKILLS";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -88,7 +88,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(437, 79);
+            this.label2.Location = new System.Drawing.Point(436, 66);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(141, 23);
             this.label2.TabIndex = 4;
@@ -98,17 +98,17 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(195, 102);
+            this.label3.Location = new System.Drawing.Point(286, 102);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(449, 19);
+            this.label3.Size = new System.Drawing.Size(411, 19);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Здесь показаны все ваш спонсоры в Varathon Skills 2020";
+            this.label3.Text = "Здесь показаны все ваш спонсоры в Marathon Skills";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(12, 147);
+            this.label4.Location = new System.Drawing.Point(22, 121);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(258, 38);
             this.label4.TabIndex = 6;
@@ -117,7 +117,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.White;
-            this.pictureBox2.Location = new System.Drawing.Point(7, 188);
+            this.pictureBox2.Location = new System.Drawing.Point(7, 162);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(339, 196);
             this.pictureBox2.TabIndex = 7;
@@ -174,7 +174,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(7, 390);
+            this.textBox1.Location = new System.Drawing.Point(7, 364);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;

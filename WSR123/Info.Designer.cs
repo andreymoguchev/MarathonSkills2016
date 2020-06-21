@@ -71,9 +71,9 @@
             this.label1.Location = new System.Drawing.Point(230, 89);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(246, 22);
+            this.label1.Size = new System.Drawing.Size(210, 22);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Информация о Marathon Skills 2020";
+            this.label1.Text = "Информация о Marathon Skills";
             // 
             // label2
             // 
@@ -83,9 +83,9 @@
             this.label2.Location = new System.Drawing.Point(260, 36);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(199, 19);
+            this.label2.Size = new System.Drawing.Size(158, 19);
             this.label2.TabIndex = 3;
-            this.label2.Text = "MARATHON SKILLS 2020";
+            this.label2.Text = "MARATHON SKILLS";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3

@@ -52,7 +52,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(172, 60);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Marathon Skills 2020";
+            this.button1.Text = "Marathon Skills";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -127,9 +127,9 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(282, 48);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(244, 29);
+            this.label1.Size = new System.Drawing.Size(195, 29);
             this.label1.TabIndex = 7;
-            this.label1.Text = "MARATHON SKILLS 2020";
+            this.label1.Text = "MARATHON SKILLS";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -165,7 +165,7 @@
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(160, 28);
             this.button8.TabIndex = 11;
-            this.button8.Text = "MARATHON SKILLS 2020";
+            this.button8.Text = "MARATHON SKILLS";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 

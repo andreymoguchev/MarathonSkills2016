@@ -117,9 +117,9 @@
             this.label1.Location = new System.Drawing.Point(217, 12);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(208, 24);
+            this.label1.Size = new System.Drawing.Size(167, 24);
             this.label1.TabIndex = 4;
-            this.label1.Text = "MARATHON SKILLS 2020";
+            this.label1.Text = "MARATHON SKILLS";
             // 
             // label2
             // 
@@ -139,11 +139,11 @@
             this.label3.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.Location = new System.Drawing.Point(74, 74);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(611, 66);
+            this.label3.Size = new System.Drawing.Size(575, 66);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Пожалуйста, заполните всю информацию, чтобы зарегестрировать на Marathon Skills 2" +
-    "020, \r\nпроводим в Москве. С вами свяжутся после ргистрации для уточнения\r\nоплаты" +
-    " и другой информации";
+            this.label3.Text = "Пожалуйста, заполните всю информацию, чтобы зарегестрировать на Marathon Skills, " +
+    "\r\nпроводим в Москве. С вами свяжутся после ргистрации для уточнения\r\nоплаты и др" +
+    "угой информации";
             // 
             // label4
             // 

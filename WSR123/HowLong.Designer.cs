@@ -104,9 +104,9 @@
             this.label1.Location = new System.Drawing.Point(301, 23);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(199, 19);
+            this.label1.Size = new System.Drawing.Size(158, 19);
             this.label1.TabIndex = 3;
-            this.label1.Text = "MARATHON SKILLS 2020";
+            this.label1.Text = "MARATHON SKILLS";
             // 
             // pictureBox1
             // 

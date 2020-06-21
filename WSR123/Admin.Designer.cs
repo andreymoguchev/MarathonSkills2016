@@ -91,9 +91,9 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(280, 63);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(243, 23);
+            this.label2.Size = new System.Drawing.Size(193, 23);
             this.label2.TabIndex = 4;
-            this.label2.Text = "MARATHON SKILLS 2020";
+            this.label2.Text = "MARATHON SKILLS";
             // 
             // time
             // 

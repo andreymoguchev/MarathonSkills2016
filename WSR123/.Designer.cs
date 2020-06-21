@@ -133,11 +133,11 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(264, 51);
+            this.label1.Location = new System.Drawing.Point(318, 44);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(243, 23);
+            this.label1.Size = new System.Drawing.Size(193, 23);
             this.label1.TabIndex = 7;
-            this.label1.Text = "MARATHON SKILLS 2020";
+            this.label1.Text = "MARATHON SKILLS";
             // 
             // label2
             // 

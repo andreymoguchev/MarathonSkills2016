@@ -46,9 +46,9 @@
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
             this.button1.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.button1.Location = new System.Drawing.Point(240, 137);
+            this.button1.Location = new System.Drawing.Point(240, 122);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(244, 23);
+            this.button1.Size = new System.Drawing.Size(254, 45);
             this.button1.TabIndex = 0;
             this.button1.Text = "Я хочу стать бегуном";
             this.button1.UseVisualStyleBackColor = false;
@@ -61,7 +61,7 @@
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.button2.Location = new System.Drawing.Point(240, 188);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(244, 23);
+            this.button2.Size = new System.Drawing.Size(254, 42);
             this.button2.TabIndex = 1;
             this.button2.Text = "Я хочу стать спонсором бегуна";
             this.button2.UseVisualStyleBackColor = false;
@@ -72,9 +72,9 @@
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
             this.button3.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            this.button3.Location = new System.Drawing.Point(240, 246);
+            this.button3.Location = new System.Drawing.Point(240, 258);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(244, 23);
+            this.button3.Size = new System.Drawing.Size(254, 47);
             this.button3.TabIndex = 2;
             this.button3.Text = "Я хочу узнать больше о событии";
             this.button3.UseVisualStyleBackColor = false;
@@ -89,7 +89,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 3;
-            this.button4.Text = "Login";
+            this.button4.Text = "Вход";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -98,22 +98,22 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(268, 9);
+            this.label1.Location = new System.Drawing.Point(297, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(175, 16);
+            this.label1.Size = new System.Drawing.Size(139, 16);
             this.label1.TabIndex = 4;
-            this.label1.Text = "MARATHON SKILLS 2020";
+            this.label1.Text = "MARATHON SKILLS";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
-            this.label2.Location = new System.Drawing.Point(219, 66);
+            this.label2.Location = new System.Drawing.Point(237, 51);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(252, 16);
+            this.label2.Size = new System.Drawing.Size(241, 16);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Москва, Россия суббота 30 мая 2020\r\n";
+            this.label2.Text = "Москва, Россия, 30 июня 2020 года";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // time
